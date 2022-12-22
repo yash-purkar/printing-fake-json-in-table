@@ -1,0 +1,30 @@
+* {
+  font-size: 20px;
+  background-color: aliceblue;
+}
+table {
+  border-collapse: collapse;
+  margin: 50px auto;
+}
+
+th,
+td {
+  padding: 25px;
+}
+
+th {
+  border: 1px solid #fff;
+  background-color: blueviolet;
+  color: #fff;
+}
+td {
+  color: blueviolet;
+  border: 1px solid blueviolet;
+  background-color: #fff;
+}
+h1 {
+  font-size: 40px;
+  letter-spacing: 0.3rem;
+  text-align: center;
+  color: blueviolet;
+}

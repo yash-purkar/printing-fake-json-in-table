@@ -13,8 +13,8 @@ function DataTable() {
   })
   return (
     <>
-      <h1>Hi</h1>
-      <Table striped bordered hover border="1">
+      <h1>Students Data</h1>
+      <table border="1">
         <tbody>
           <tr>
             <th>ID</th>
@@ -22,6 +22,7 @@ function DataTable() {
             <th>Email ID</th>
             <th>Street</th>
             <th>City</th>
+            <th>Website</th>
           </tr>
           {
             userData.map((data) => {
@@ -33,13 +34,14 @@ function DataTable() {
                     <td>{data.email}</td>
                     <td>{data.address.street}</td>
                     <td>{data.address.city}</td>
+                    <td>{data.website}</td>
                   </tr>
                 </>
               )
             })
           }
         </tbody>
-      </Table>
+      </table>
     </>
   )
 }
