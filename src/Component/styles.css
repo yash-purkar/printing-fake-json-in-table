@@ -12,6 +12,11 @@ td {
   padding: 25px;
 }
 
+a {
+  background-color: #fff;
+  color: blueviolet;
+}
+
 th {
   border: 1px solid #fff;
   background-color: blueviolet;

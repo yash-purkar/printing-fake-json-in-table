@@ -29,12 +29,12 @@ function DataTable() {
               return (
                 <>
                   <tr>
-                    <td>{data.id}</td>
+                    <td style={{ fontWeight: "bold" }}>{data.id}</td>
                     <td>{data.name}</td>
                     <td>{data.email}</td>
                     <td>{data.address.street}</td>
                     <td>{data.address.city}</td>
-                    <td>{data.website}</td>
+                    <td><a href={data.website}>{data.website}</a></td>
                   </tr>
                 </>
               )
